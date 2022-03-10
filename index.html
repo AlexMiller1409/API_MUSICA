@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Insira um artista ou banda:</h1>
+        <br/>
+        <input type="text" id="artista"/>
+    </div>
+    <div>
+        <h2>Nascimento: <output id="nascimento"></output></h2>
+        <h2>Localização: <output id="lugar"></output></h2>
+        <h2>Gênero Musical: <output id="genero"></output></h2>
+        <h2>Biografia: <br/><br/><output id="biografia"></output>
+        <br/>
+        <button onclick="musica()">Consultar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<style>
+    body {
+      height: 100vh;
+      width: 100vw;
+      margin: 0 auto;
+      padding: 0;  
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Arial';
+      font-size: 16px;
+      background-color: lightgray;
+    }
+    h1 {
+      font-size: 150%;
+      font-weight: 200;
+    }
+    h2 {
+      font-size: 100%;
+      font-weight: 100;
+    }
+  </style>
